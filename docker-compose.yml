@@ -1,0 +1,10 @@
+
+
+services:
+  backery-clock:
+    build: .
+    ports:
+      - "8080:80"  # Mapea puerto 8080 local al 80 del contenedor
+    restart: unless-stopped
+    environment:
+      - FLUTTER_WEB_CANVASKIT_URL=/canvaskit/

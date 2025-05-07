@@ -1,0 +1,41 @@
+name: backeryclock1
+description: Un Proyecto de Registro Entrada y Salida de una Repostería y manejo de información de los empleados.
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.1 # Update to the latest stable version
+  firebase_auth: ^4.17.3 # Update to the latest stable version
+  cloud_firestore: ^4.17.2 # Update to the latest stable version
+  google_fonts: ^6.1.0
+  uuid: ^4.3.0
+  intl: ^0.18.1
+  provider: ^6.1.2
+  shared_preferences: ^2.1.0
+  flutter_local_notifications: ^12.0.4
+  vector_math: ^2.1.4
+  js: ^0.6.7 # Ensure compatibility, update if necessary
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/backery1.png
+    - assets/images/money1.png
+    - assets/images/schedule.png
+    - assets/images/schedule2.png
+    - assets/images/moneybag2.png
+  fonts:
+    - family: Tektur
+      fonts:
+        - asset: assets/fonts/Tektur-VariableFont_wdth,wght.ttf
